@@ -1,0 +1,14 @@
+{
+  "name": "xml-parser",
+  "version": "1.0.0",
+  "description": "XML to SQL table parser",
+  "main": "src/main.js",
+  "author": "Jay Tulk",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^4.1.4"
+  }
+}

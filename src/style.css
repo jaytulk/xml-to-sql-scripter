@@ -1,0 +1,39 @@
+html,
+body,
+.app-container {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    hsl(233, 30%, 15%),
+    hsl(233, 50%, 60%)
+  );
+}
+
+.import-button {
+  padding: 10px 12px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid hsl(180, 50%, 65%);
+  background-color: hsl(180, 80%, 92%);
+  border-radius: 3px;
+}
+
+.import-button:hover {
+  cursor: pointer;
+  border: 1px solid hsl(180, 50%, 65%);
+  background-color: hsl(180, 90%, 94%);
+}
+
+.import-button:active {
+  cursor: pointer;
+  border: 1px solid hsl(180, 40%, 40%);
+  background-color: hsl(180, 80%, 82%);
+}
